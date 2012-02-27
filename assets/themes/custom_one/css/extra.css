@@ -1,0 +1,38 @@
+p{
+  font-family: 'Palatino','Times New Roman', 'Times', serif;
+  font-size: 1.5em;
+  line-height: 1.25em;
+}
+blockquote p, p.well{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1{
+	font-size: 4em;
+	line-height: 1.25em;
+}
+h2{
+	font-size:2.5em;
+		line-height: 1.25em;
+
+}
+h3{
+	font-size: 2em;
+	line-height: 1.25em;
+	margin-bottom:1em;
+}
+h4{
+	font-size: 1.75em;
+	line-height: 1.25em;
+}
+header{
+	margin-bottom: 15px;
+	padding: 15px 0 16px;
+	border-bottom: 1px solid #E5E5E5;
+
+}
+footer{
+	margin-top: 15px;
+	padding: 15px 0 16px;
+	border-top: 1px solid #E5E5E5;
+}
