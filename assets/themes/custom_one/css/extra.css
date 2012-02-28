@@ -36,3 +36,13 @@ footer{
 	padding: 15px 0 16px;
 	border-top: 1px solid #E5E5E5;
 }
+@media (max-width: 480px) {
+	
+}
+@media (min-width: 480px) and (max-width: 768px) {
+
+}
+@media (min-width: 768px) and (max-width: 940px) {
+
+}
+
