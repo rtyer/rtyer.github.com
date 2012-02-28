@@ -1,48 +1,77 @@
+body{
+	background-color: #F2F2F2;
+}
+article, section{
+	display:block;
+}
 p{
   font-family: 'Palatino','Times New Roman', 'Times', serif;
   font-size: 1.5em;
-  line-height: 1.25em;
+  line-height: 1.5em;
+  color: #404040;
 }
 blockquote p, p.well{
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+.well{
+	background-color: #fff;
+	border-color:#aaa;
+	font-style: oblique;
+}
 h1{
-	font-size: 4em;
-	line-height: 1.25em;
+	font-size: 3em;
+	line-height: 1.5em;
+	color:#4586BF;
+}
+div.title, h1.title{
+	margin-bottom:-.25em;
+	padding-bottom:-.25em;
 }
 h2{
-	font-size:2.5em;
-		line-height: 1.25em;
-
+	font-size:2em;
+	line-height: 1.5em;
+	color:#4586BF;
 }
+
 h3{
-	font-size: 2em;
-	line-height: 1.25em;
-	margin-bottom:1em;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	margin-bottom:.5em;
+	color:#4586BF;
+}
+h3.published{
+	font-size: 3em;
+	line-height: 1.5em;
+	margin-bottom:-.25em;
+	padding-bottom:-.25em;
+}
+h3.published time{
+	font-size:.5em;
+	color: #42423F;
+	vertical-align:baseline;
 }
 h4{
 	font-size: 1.75em;
-	line-height: 1.25em;
+	line-height: 1.5em;
+	color:#4586BF;
+}
+h5.subtitle{
+	font-weight:normal;
+	color:#666;
+	font-size:1.75em;
+	margin-top:0px;
+	margin-bottom:.75em;
 }
 header{
 	margin-bottom: 15px;
 	padding: 15px 0 16px;
-	border-bottom: 1px solid #E5E5E5;
-
+	border-bottom: 1px solid #ddd;
 }
 footer{
 	margin-top: 15px;
 	padding: 15px 0 16px;
-	border-top: 1px solid #E5E5E5;
+	border-top: 1px solid #ddd;
 }
-@media (max-width: 480px) {
-	
+hr{
+	border-top: 1px solid #ddd;
 }
-@media (min-width: 480px) and (max-width: 768px) {
-
-}
-@media (min-width: 768px) and (max-width: 940px) {
-
-}
-
