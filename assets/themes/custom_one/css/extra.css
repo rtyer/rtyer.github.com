@@ -1,17 +1,25 @@
 body{
 	background-color: #F2F2F2;
+	/*font-size: .75em;*/
 }
 article, section{
 	display:block;
 }
+blockquote{
+	font-size:1.25em;
+	border-color:#666;
+	margin-top:1em;
+	margin-bottom:2em;
+}
 p{
   font-family: 'Palatino','Times New Roman', 'Times', serif;
-  font-size: 1.5em;
-  line-height: 1.5em;
+  font-size: 1.25em;
+  line-height: 1.25em;
   color: #404040;
 }
 blockquote p, p.well{
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .well{
 	background-color: #fff;
@@ -44,6 +52,7 @@ h3.published{
 	line-height: 1.5em;
 	margin-bottom:-.25em;
 	padding-bottom:-.25em;
+	text-align:right;
 }
 h3.published time{
 	font-size:.5em;
@@ -55,9 +64,14 @@ h4{
 	line-height: 1.5em;
 	color:#4586BF;
 }
+h5{
+	font-size: 1.25em;
+	line-height: 1.25em;
+	margin-bottom:.5em;
+}
 h5.subtitle{
-	font-weight:normal;
-	color:#666;
+	/*font-weight:normal;*/
+	color:#42423F;
 	font-size:1.75em;
 	margin-top:0px;
 	margin-bottom:.75em;
@@ -73,5 +87,7 @@ footer{
 	border-top: 1px solid #ddd;
 }
 hr{
-	border-top: 1px solid #ddd;
+	border-color: #F2F2F2;
+	border-top: 1px solid #F2F2F2;
+	margin-bottom:.25em;
 }

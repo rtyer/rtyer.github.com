@@ -1,15 +1,15 @@
 <header class="row">
 	<h2><a href="/">Ryan Tyer</a></h2>
-	<h5><small style="font-size:1.5em">Things that have interested me</small></h5>
 </header>			
 <article class="row">	
 	<div class="row title">
-		<h1 class="span9 title">{{ page.title }}</h1>
-		<h3 class="span3 published pull-right"><a href="{{page.url}}"><time datetime="{{page.date}}" pubdate="true">{{page.date| date: "%d %b, %Y" }}</time></a></h3>		
+		<h1 class="span9 title"><a href="{{page.url}}">{{ page.title }}</a></h1>
+		<h3 class="span3 published pull-right"><time datetime="{{page.date}}" pubdate="true">{{page.date| date: "%d %b, %Y" }}</time></h3>		
 	</div>
 	{% if page.subtitle %}
-		<h5 class="subtitle">{{ page.subtitle }}</h5>		
+		<h5 class="subtitle">{{ page.subtitle }}</h5>	
 	{% endif %}
+	<hr class="invis" />
 	{{ content }}
 	<section>{{page.tags}}</section>
 	<section>{% include JB/comments %}</section>
