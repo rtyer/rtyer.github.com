@@ -3,4 +3,5 @@
 	<h3><a href="{{page.url}}"><time datetime="{{page.date}}" pubdate="true">{{page.date| date: "%d %b, %Y" }}</time></a></h3>
 	{{ content }}
 	<section>{{page.tags}}</section>
+	<section>{% include JB/comments %}</section>
 </article>
